@@ -48,3 +48,9 @@ body {
     margin-right: 10px;
     margin-left: 10px;
 }
+canvas {
+    border: 10px;
+    border: black;
+    display: inline-block;
+    margin-left: 5%;
+}
