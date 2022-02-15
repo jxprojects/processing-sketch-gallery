@@ -49,9 +49,9 @@ body {
     align-items: center;
 }
 .gallery canvas {
-    width: 50%;
+    width: 44%;
     padding: 0;
-    margin-left: 25%;
+    margin-left: 28%;
     align-items: center;
 }
 .gallery h3 {
