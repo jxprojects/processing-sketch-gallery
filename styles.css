@@ -1,41 +1,36 @@
 body {
     margin: 0;
     padding: 0;
-    background:rgb(235, 225, 210, 1.0);
-    font-family: 'Karla', sans-serif;
-    background: linear-gradient(rgba(56, 62, 114, 0.8), rgb(56, 62, 114, 0.8)), url(images/header.png);
+    font-family: 'IBM Plex Mono', monospace;
+    background-color: white;
     background-size: cover;
-}
-.sel h1 {
-    padding-top: 20px;
-    font-size: 250%;
-    color: white;
-    text-align: center;
 }
 .sel {
     padding: 0;
     margin: 0;
-    margin-top: 20px;
+    margin-top: 10px;
     text-align: center;
 }
 .sel li {
     display: inline-block; /* NEW */
 }
 .sel a{
-    color: white;
+    font-weight: 100;
+    color: black;
     border: none;
      /* aspect must apply to innermost */
     padding-left: 5px;
     padding-right: 5px;
 }
 .sel button {
+    font-weight: 100;
     padding: 0;
     border: none;
     background: none;
     text-decoration: underline;
     font-size: 95%;
-    font-family: 'Karla', sans-serif;
-    color: white;
+    font-family: 'IBM Plex Mono', monospace;
+    color: black;
 
 }
 .sel img{
@@ -43,25 +38,27 @@ body {
 }
 .sel hr{
     height: 1px;
-    background-color: white;
+    background-color: black;
     border-color: rgba(0, 0, 0, 0.0);
-    margin-right: 10px;
-    margin-left: 10px;
+    margin-right: 20%;
+    margin-left: 20%;
 }
 .gallery ul {
     padding: 0;
-    margin-left: 3%;
     list-style: none;
+    align-items: center;
 }
-.gallery img {
-    width: 45%;
+.gallery canvas {
+    width: 50%;
     padding: 0;
+    margin-left: 25%;
+    align-items: center;
 }
 .gallery h3 {
     text-align: center;
     color: rgb(179, 179, 179);
     margin-top: 5px;
 }
-#LHS1 {
-    margin-right: 55%;
+.gallery a {
+    color: gray;
 }
